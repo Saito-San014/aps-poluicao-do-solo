@@ -51,19 +51,23 @@
 @media screen and (min-width: 900px){
     #containerMenu {
         width: 100%;
-        height: 90px;
-        background-color: #00f;
+        height: auto;
+        display: block;
+        background-color: #fff;
         position: fixed;
         top: 0;
         left: 0;
+        clear: both;
     }
 
     #menu {
         width: 100%;
-        background-color: #0f0;
+        background-color: #fff;
         position: absolute;
         bottom: 0;
         z-index: 1;
+        border-bottom: 1px solid #D4D4D4; 
+        
     }
 
     #menu,
@@ -80,6 +84,7 @@
     #menu li {
         float: left;
         position: relative;
+        
     }
 
     #menu a {
@@ -87,7 +92,7 @@
         /*elementos flutuantes, altera padding*/
         padding: 12px 30px;
         /*Espaço dos elementos internos*/
-        color: #fff;
+        color: #67686B;
         /*cor texto*/
         text-transform: uppercase;
         /*MAIÚSCULAS*/
