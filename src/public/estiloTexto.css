@@ -3,35 +3,35 @@ body {
     text-rendering: optimizeLegibility;
 }
 #containerTexto{
-    width: 100%;
+    top: 10%;
+    position: absolute;
+    width: 90%;
     display: flex;
-    background-color: aqua;
+    justify-content: center;
+    background-color: red;
 }
 #texto {
     padding: 0;
     margin: 0;
-    width: 500px;
-    height: 500px;
+    width: 60%;
     background-color: #F4f4f4;
-    top: 15%;
-    left: 10%;
-    font-size: 5vw;
 }
 
 p {
-    font-size: 4vw;
+    font: 16px Arial;
+    font-size: 3vw;
     padding: 0 ;
 }
 
 h1 {
     color: #19191C;
     font: 25px sans-serif;
+    font-size: 6vw;
 }
 
 #image {
-    align-self: flex-end;
     background-color: black;
-    width: 500px;
-    height: 500px;
+    width: 30%;
+    height: 30%;
     margin: 10px;
 }
