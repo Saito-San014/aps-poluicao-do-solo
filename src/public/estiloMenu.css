@@ -1,19 +1,14 @@
-@media screen and (min-width: 430px) and (max-width: 900px) {
-    #containerMenu {
-        width: 100%;
-        height: 90px;
-        background-color: #00f;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
+@media screen and (min-device-width: 350px) and (max-device-width: 900px) {
     #menu {
         width: 100%;
+        height: fit-content;
         background-color: #0f0;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         z-index: 1;
+        border-bottom: 1px solid #D4D4D4;
+        top: 0;
+        left: 0;
     }
 
     #menu,
@@ -28,46 +23,102 @@
     }
 
     #menu li {
-        float: left;
+        padding: 12x 30px;
         position: relative;
     }
 
     #menu a {
-        float: left;
         /*elementos flutuantes, altera padding*/
-        padding: 12px 30px;
+        float: left;
         /*Espaço dos elementos internos*/
         color: #fff;
         /*cor texto*/
         text-transform: uppercase;
         /*MAIÚSCULAS*/
         font: 20px Arial;
+        line-height: 24px;
         /*fonte*/
         text-decoration: none;
         /*nenhum estilo adicional*/
+
+    }
+
+    .itemMenu {
+        visibility: hidden;
     }
 
 }
-@media screen and (min-width: 900px){
-    #containerMenu {
-        width: 100%;
-        height: 60px;
-        display: block;
-        background-color: #fff;
-        position: fixed;
-        top: 0;
-        left: 0;
-        clear: both;
-    }
-
+@media screen and (max-device-width: 350px) {
     #menu {
         width: 100%;
-        background-color: #fff;
-        position: absolute;
+        height: fit-content;
+        background-color: #0f0;
+        position: fixed;
         bottom: 0;
         z-index: 1;
-        border-bottom: 1px solid #D4D4D4; 
+        border-bottom: 1px solid #D4D4D4;
+        top: 0;
+        left: 0;
+    }
+
+    #menu,
+    #menu ul {
+        font-family: "Arial";
+        margin: 0;
+        /* margin inicial */
+        padding: 0;
+        /* espaço de dentro */
+        list-style: none;
+        /* Ícones da lista */
+    }
+
+    #menu li {
+        padding: 12x 30px;
         
+        position: relative;
+    }
+
+    #menu a {
+        /*elementos flutuantes, altera padding*/
+        float: left;
+        /*Espaço dos elementos internos*/
+        color: #fff;
+        /*cor texto*/
+        text-transform: uppercase;
+        /*MAIÚSCULAS*/
+        font: 20px Arial;
+        line-height: 24px;
+        /*fonte*/
+        text-decoration: none;
+        /*nenhum estilo adicional*/
+
+    }
+
+    .itemIcone a {
+        padding: 12px 30px;
+        font: 40px Arial;
+    }
+    .itemIcone a:active .itemMenu{
+        visibility: visible;
+    }
+    .itemMenu {
+        visibility: hidden;
+        width: 15%;
+    }
+
+}
+
+@media screen and (min-device-width: 900px) {
+    #menu {
+        width: 100%;
+        height: fit-content;
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        border-bottom: 1px solid #D4D4D4;
+        top: 0;
+        left: 0;
     }
 
     #menu,
@@ -84,7 +135,7 @@
     #menu li {
         float: left;
         position: relative;
-        
+
     }
 
     #menu a {
