@@ -2,13 +2,12 @@
     #menu {
         width: 100%;
         height: fit-content;
-        background-color: #0f0;
+        background-color: #fff;
         position: fixed;
-        bottom: 0;
-        z-index: 1;
         border-bottom: 1px solid #D4D4D4;
         top: 0;
         left: 0;
+        z-index: 2;
     }
 
     #menu,
@@ -23,20 +22,20 @@
     }
 
     #menu li {
-        padding: 12x 30px;
         position: relative;
     }
 
     #menu a {
+        padding: 12px 30px;
         /*elementos flutuantes, altera padding*/
         float: left;
         /*Espaço dos elementos internos*/
-        color: #fff;
+        color: #67686B;
         /*cor texto*/
         text-transform: uppercase;
         /*MAIÚSCULAS*/
         font: 20px Arial;
-        line-height: 24px;
+        font-size: 2vw;
         /*fonte*/
         text-decoration: none;
         /*nenhum estilo adicional*/
@@ -52,7 +51,7 @@
     #menu {
         width: 100%;
         height: fit-content;
-        background-color: #0f0;
+        background-color: #fff;
         position: fixed;
         bottom: 0;
         z-index: 1;
@@ -82,7 +81,7 @@
         /*elementos flutuantes, altera padding*/
         float: left;
         /*Espaço dos elementos internos*/
-        color: #fff;
+        color: #67686B;
         /*cor texto*/
         text-transform: uppercase;
         /*MAIÚSCULAS*/

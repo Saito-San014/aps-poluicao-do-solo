@@ -8,7 +8,7 @@ body {
     width: 90%;
     display: flex;
     justify-content: center;
-    background-color: red;
+    background-color: #F4f4f4
 }
 #texto {
     padding: 0;
@@ -26,7 +26,7 @@ p {
 h1 {
     color: #19191C;
     font: 25px sans-serif;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 #image {
