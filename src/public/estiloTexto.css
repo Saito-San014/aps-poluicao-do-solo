@@ -13,7 +13,7 @@ body {
 #texto {
     padding: 0;
     margin: 0;
-    width: 60%;
+    max-width: 60%;
     background-color: #F4f4f4;
 }
 
