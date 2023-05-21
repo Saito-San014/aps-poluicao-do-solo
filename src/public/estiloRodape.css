@@ -1,21 +1,25 @@
 footer {
     padding: 0;
-    padding-left: 50px;
     margin: 0;
     margin-top: 110px;
-    width: 100%;
+    width: 110%;
     display: flex;
     text-align: center;
     background-color: #F4f4f4;
     z-index: 2;
     position: relative;
+    left: -5%;
+    border-top: 1px solid;
+    flex-direction: column;
   }
   #criado_por{
-    width: 50%;
     color: black;
-    font: 16px Arial;
-    font-size: 1vw;
-    text-align: left;
+    font: 13px Arial;
+    text-align: center;
+  }
+  #referencia{
+    position: relative;
+    top: 10px;
   }
   footer a{
     font: 16px Arial;
