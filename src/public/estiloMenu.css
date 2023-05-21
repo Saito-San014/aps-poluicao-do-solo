@@ -1,155 +1,88 @@
-@media screen and (min-device-width: 350px) and (max-device-width: 600px) {
-    #menu {
-        width: 100%;
-        height: fit-content;
-        background-color: #fff;
-        position: fixed;
-        border-bottom: 1px solid #D4D4D4;
-        top: 0;
-        left: 0;
-        z-index: 2;
-    }
+#menu {
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    border-bottom: 1px solid #D4D4D4;
+    top: 0;
+    left: 0;
+}
 
-    #menu,
-    #menu ul {
-        font-family: "Arial";
-        margin: 0;
-        /* margin inicial */
-        padding: 0;
-        /* espaço de dentro */
-        list-style: none;
-        /* Ícones da lista */
-    }
+#menu,
+#menu ul {
+    font-family: "Arial";
+    margin: 0;
+    /* margin inicial */
+    padding: 0;
+    /* espaço de dentro */
+    list-style: none;
+    /* Ícones da lista */
+}
 
-    #menu li {
-        position: relative;
-    }
+#menu li {
+    position: relative;
+    float: left;
+    padding: 0;
+}
 
-    #menu a {
-        padding: 12px 30px;
-        /*elementos flutuantes, altera padding*/
-        float: left;
-        /*Espaço dos elementos internos*/
-        color: #67686B;
-        /*cor texto*/
-        text-transform: uppercase;
-        /*MAIÚSCULAS*/
-        font: 20px Arial;
-        font-size: 2vw;
-        /*fonte*/
-        text-decoration: none;
-        /*nenhum estilo adicional*/
-
-    }
-
-    .itemMenu {
-        visibility: hidden;
-    }
+#menu a, i {
+    /*elementos flutuantes, altera padding*/
+    float: left;
+    /*Espaço dos elementos internos*/
+    color: #67686B;
+    /*cor texto*/
+    text-transform: uppercase;
+    /*MAIÚSCULAS*/
+    font: 20px Arial;
+    font-size: 2vw;
+    /*fonte*/
+    text-decoration: none;
+    /*nenhum estilo adicional*/
 
 }
+
+#menu a:hover {
+    color: #087CFA;
+}
+
 @media screen and (max-device-width: 350px) {
-    #menu {
-        width: 100%;
-        height: fit-content;
-        background-color: #fff;
-        position: fixed;
-        bottom: 0;
-        z-index: 1;
-        border-bottom: 1px solid #D4D4D4;
-        top: 0;
-        left: 0;
-    }
-
-    #menu,
-    #menu ul {
-        font-family: "Arial";
-        margin: 0;
-        /* margin inicial */
-        padding: 0;
-        /* espaço de dentro */
-        list-style: none;
-        /* Ícones da lista */
-    }
-
-    #menu li {
-        padding: 12x 30px;
-        
-        position: relative;
-    }
-
-    #menu a {
-        /*elementos flutuantes, altera padding*/
-        float: left;
-        /*Espaço dos elementos internos*/
-        color: #67686B;
-        /*cor texto*/
-        text-transform: uppercase;
-        /*MAIÚSCULAS*/
-        font: 20px Arial;
-        line-height: 24px;
-        /*fonte*/
-        text-decoration: none;
-        /*nenhum estilo adicional*/
-
-    }
-
-    .itemIcone a {
-        padding: 12px 30px;
-        font: 40px Arial;
-    }
-    .itemIcone a:active .itemMenu{
+    .itemIcone i :active .itemMenu {
         visibility: visible;
     }
+
+    .itemIcone i{
+        position: inherit;
+        top: 12px;
+        height: 20px;
+        width: 20px;
+    }
+    .itemIcone i:hover{
+        color: #087CFA;
+    }
+
     .itemMenu {
         visibility: hidden;
-        width: 15%;
+    }
+
+    .itemInicio a {
+        padding: 12px 30px;
     }
 
 }
 
-@media screen and (min-device-width: 700px) {
-    #menu {
-        width: 100%;
-        height: fit-content;
-        background-color: #fff;
-        position: fixed;
-        bottom: 0;
-        z-index: 1;
-        border-bottom: 1px solid #D4D4D4;
-        top: 0;
-        left: 0;
-    }
-
-    #menu,
-    #menu ul {
-        font-family: "Arial";
-        margin: 0;
-        /* margin inicial */
-        padding: 0;
-        /* espaço de dentro */
-        list-style: none;
-        /* Ícones da lista */
-    }
-
-    #menu li {
-        float: left;
-        position: relative;
-
-    }
-
+@media screen and (min-device-width: 350px) {
     #menu a {
-        float: left;
-        /*elementos flutuantes, altera padding*/
         padding: 12px 30px;
-        /*Espaço dos elementos internos*/
-        color: #67686B;
-        /*cor texto*/
-        text-transform: uppercase;
-        /*MAIÚSCULAS*/
-        font: 20px Arial;
-        /*fonte*/
-        text-decoration: none;
-        /*nenhum estilo adicional*/
     }
+
+    .itemIcone {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        padding: 0;
+    }
+
 
 }
