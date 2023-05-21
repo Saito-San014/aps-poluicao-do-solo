@@ -31,6 +31,7 @@ h1 {
 #image_grid{
     display: flex;
     background-color: #FFF;
+    width: fit-content;
 }
 
 @media screen and (min-device-width: 350px){
