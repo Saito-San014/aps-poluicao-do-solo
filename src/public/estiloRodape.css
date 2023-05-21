@@ -22,6 +22,7 @@ footer {
     top: 10px;
   }
   footer a{
+    color: black;
     font: 16px Arial;
     text-decoration: none;
   }
