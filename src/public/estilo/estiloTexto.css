@@ -33,7 +33,24 @@ h1 {
     background-color: #FFF;
     width: fit-content;
 }
-
+.image_float{
+    float: right;
+    width: 30%;
+    height: auto;
+}
+.link_texto{
+    text-decoration: none;
+    color: black;
+    font: italic 15px Arial;
+    font-size: 1vw;
+}
+.link_texto:hover{
+    color: blue;
+}
+.image_above{
+    width: 45%;
+    height: auto;
+}
 @media screen and (min-device-width: 350px){
     .image_grid{
         margin: 0 5px;
