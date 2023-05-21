@@ -19,6 +19,7 @@
     /* espaço de dentro */
     list-style: none;
     /* Ícones da lista */
+    padding-left: 30px;
 }
 
 #menu li {
