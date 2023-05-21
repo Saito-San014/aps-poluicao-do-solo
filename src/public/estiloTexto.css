@@ -3,7 +3,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 #containerTexto{
-    top: 40px;
+    top: 90px;
     position: relative;
     width: auto;
     display: flex;
