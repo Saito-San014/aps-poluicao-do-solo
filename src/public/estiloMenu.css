@@ -28,7 +28,8 @@
     padding: 0;
 }
 
-#menu a, i {
+#menu a {
+    padding: 12px 30px;
     /*elementos flutuantes, altera padding*/
     float: left;
     /*Espaço dos elementos internos*/
@@ -46,44 +47,4 @@
 
 #menu a:hover {
     color: #087CFA;
-}
-
-@media screen and (max-device-width: 350px) {
-    .itemIcone i :active .itemMenu {
-        visibility: visible;
-    }
-
-    .itemIcone i{
-        position: inherit;
-        top: 12px;
-        height: 20px;
-        width: 20px;
-    }
-    .itemIcone i:hover{
-        color: #087CFA;
-    }
-
-    .itemMenu {
-        visibility: hidden;
-    }
-
-    .itemInicio a {
-        padding: 12px 30px;
-    }
-
-}
-
-@media screen and (min-device-width: 350px) {
-    #menu a {
-        padding: 12px 30px;
-    }
-
-    .itemIcone {
-        width: 0;
-        height: 0;
-        visibility: hidden;
-        padding: 0;
-    }
-
-
 }
