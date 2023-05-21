@@ -1,11 +1,20 @@
 footer {
     padding: 0;
+    padding-left: 50px;
     margin: 0;
     margin-top: 50px;
     width: 100%;
+    display: flex;
     text-align: center;
     background-color: #F4f4f4;
     color: white;
     z-index: 2;
     position: relative;
+  }
+  #criado_por{
+    width: 50%;
+    color: black;
+    font: 16px Arial;
+    font-size: 3vw;
+    text-align: left;
   }
