@@ -16,7 +16,10 @@ body {
     max-width: 90%;
     background-color: #F4f4f4;
 }
-
+#texto li{
+    font: 16px Arial;
+    font-size: 3vw;
+}
 p {
     font: 16px Arial;
     font-size: 3vw;
