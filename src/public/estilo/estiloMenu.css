@@ -1,12 +1,27 @@
+#background_menu{
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("/src/public/image/foto-aerea-aerea-de-uma-floresta-densa-com-belas-arvores-e-vegetacao_181624-2812.jpg");
+    background-size: cover;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+#background_menu li{
+padding: 0;
+}
 #menu {
     width: 100%;
     height: fit-content;
-    background-color: #fff;
-    position: fixed;
+    z-index: 1;    
+    background-color: rgba(75, 75, 75, 0.7);
+    position: absolute;
     bottom: 0;
-    z-index: 1;
     border-bottom: 1px solid #D4D4D4;
-    top: 0;
     left: 0;
 }
 
@@ -16,17 +31,14 @@
     margin: 0;
     /* margin inicial */
     padding: 0;
-    padding-top: 50px;
     /* espaço de dentro */
     list-style: none;
     /* Ícones da lista */
-    padding-left: 30px;
 }
 
 #menu li {
-    bottom: 0;
     position: relative;
-    float: left;
+    float: right;
     padding: 0;
 }
 
@@ -35,7 +47,7 @@
     /*elementos flutuantes, altera padding*/
     float: left;
     /*Espaço dos elementos internos*/
-    color: #67686B;
+    color: #fff;
     /*cor texto*/
     text-transform: uppercase;
     /*MAIÚSCULAS*/
@@ -44,9 +56,13 @@
     /*fonte*/
     text-decoration: none;
     /*nenhum estilo adicional*/
-
+    border: 1px solid #CCCCCC;
+    background-color: #4b4b4b;
+    border-radius: 5px;
 }
 
 #menu a:hover {
-    color: #087CFA;
+    color: #000;
+    background-color: #ccc;
+    border-color: #000;
 }

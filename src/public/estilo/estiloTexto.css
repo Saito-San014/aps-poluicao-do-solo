@@ -1,28 +1,30 @@
 body {
-    background-color: #f4f4f4;
+    background-color: #fff;
     text-rendering: optimizeLegibility;
+    display: flex;
+    flex-direction: column;
 }
 #containerTexto{
-    top: 90px;
+    top: 310px;
     position: relative;
     width: auto;
     display: flex;
     justify-content: center;
-    background-color: #F4f4f4;
+    background-color: #Fff;
 }
 #texto {
     padding: 0;
     margin: 0;
-    max-width: 90%;
-    background-color: #F4f4f4;
+    max-width: 70%;
+    background-color: #FFF;
 }
 #texto li{
     font: 16px Arial;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 p {
     font: 16px Arial;
-    font-size: 3vw;
+    font-size: 2vw;
     padding: 0 ;
 }
 
@@ -34,7 +36,7 @@ h1 {
 #image_grid{
     display: flex;
     background-color: #FFF;
-    width: fit-content;
+    width: 100%;
 }
 .image_float{
     float: right;
